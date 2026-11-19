@@ -1,0 +1,21 @@
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: red;
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
